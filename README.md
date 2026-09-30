@@ -3,7 +3,7 @@
 Live site: https://oazis.chernivtsi.space
 
 ## About
-Готель Оазис — готель у Чернівцях. Односторінковий лендинг без фото (`photos_source: null`): типографіка та CSS/SVG-графіка.
+Готель Оазис — готель у Чернівцях. Односторінковий лендинг. Фото закладу немає (`photos_source: null`), тому hero типографічний (CSS/SVG), а єдині фото — міста Чернівців з Pexels (див. Photos).
 
 ## Hero concept
 Батарея зарядки: вісім клітинок-зручностей заповнюються від темно-зеленого до світлого, остання «заряджається». Концепт виходить із підтвердженої EV-зарядки та парковки.
@@ -35,6 +35,13 @@ Booking.com 7.5/10 (300), Google 3.8/5 (241). Знімок на 30.09.2026, пл
 
 ## Forms
 HotelOS (`ch-oazis`): `stay-request` (проживання). Документ `hotels/ch-oazis` у Firestore треба створити вручну, інакше правила відхилять заявки.
+
+## Photos
+Лише фото міста (не готелю), з Pexels, підключені за прямими посиланнями images.pexels.com (без копій у репо), з підписами та авторами на сторінці:
+
+- Резиденція буковинських митрополитів, нині Чернівецький університет: pexels.com/photo/38163639 (Natalia Sevruk)
+- Вулиця в Чернівцях: pexels.com/photo/17268858 (Андрій Копічевський)
+- Храм Резиденції митрополитів: pexels.com/photo/38163644 (Natalia Sevruk)
 
 ## SEO
 Title і description з маніфесту, canonical, Open Graph, `geo.*`, JSON-LD `Hotel` лише з підтвердженими полями (без numberOfRooms, starRating, aggregateRating), `robots.txt`, `sitemap.xml`, `404.html`.
