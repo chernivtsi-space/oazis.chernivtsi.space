@@ -34,7 +34,7 @@ Booking.com 7.5/10 (300), Google 3.8/5 (241). Знімок на 30.09.2026, пл
 Час заїзду, email, сайт, Instagram, зірковість, ціни, категорії номерів. Телефон взято з Google (інші джерела мали інші номери), бажано підтвердити у готелю.
 
 ## Forms
-HotelOS (`kp-oazis`): `stay-request` (проживання). Документ `hotels/kp-oazis` у Firestore треба створити вручну, інакше правила відхилять заявки.
+HotelOS (`ch-oazis`): `stay-request` (проживання). Документ `hotels/ch-oazis` у Firestore треба створити вручну, інакше правила відхилять заявки.
 
 ## SEO
 Title і description з маніфесту, canonical, Open Graph, `geo.*`, JSON-LD `Hotel` лише з підтвердженими полями (без numberOfRooms, starRating, aggregateRating), `robots.txt`, `sitemap.xml`, `404.html`.
