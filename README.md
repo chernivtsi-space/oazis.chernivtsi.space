@@ -46,10 +46,21 @@ Booking.com 7.5/10 (300), Google 3.8/5 (241). Знімок на 30.09.2026, пл
 - Address: вул. Руська, 299, Чернівці
 
 ## Sources
-Booking.com listing text (description, rooms, breakfast, house rules; guest reviews ignored), captured 30.09.2026, plus the official site where there is one. Verbatim quotes: `facts.json` in the build scratchpad.
+Booking.com listing text (description, rooms, breakfast, house rules; guest reviews ignored), captured 30.09.2026, plus the official site where there is one. Verbatim quotes: `shared/build/facts.json` у робочому просторі (поза репозиторієм сайту).
+
+## Property-specific sections
+- `#ev` Подорожуєте електромобілем?
 
 ## Not published
-Час заїзду, email, сайт, Instagram, зірковість, ціни, категорії номерів. Телефон взято з Google (інші джерела мали інші номери), бажано підтвердити у готелю.
+Email, сайт, Instagram, зірковість, ціни, тип роз’єму й вартість EV-зарядки, умови трансферу. 38 номерів — Hotels24 і Karpaty.rocks (medium). Телефон із Google (інші джерела мали інші номери).
+
+## Content TODO (не показується на сторінці)
+- [ ] TODO: підтвердити телефон +380 99 033 2399 (інші джерела дають інші номери)
+- [ ] TODO: уточнити тип роз’єму, потужність і вартість EV-зарядки — тоді можна додати їх у секцію «Подорожуєте електромобілем?»
+- [ ] TODO: уточнити, чи трансфер платний і з якого аеропорту/вокзалу
+- [ ] TODO: підтвердити кількість номерів (38 — лише сторонні каталоги)
+- [ ] TODO: отримати власні фото закладу (фасад, рецепція, номери, ванні) і погодити їх використання — потім додати галерею
+- [ ] TODO: перевірити ціни й наявність через сам готель; на сторінці цін немає
 
 ## Forms
 HotelOS (`ch-oazis`): `stay-request` (проживання). Документ `hotels/ch-oazis` у Firestore треба створити вручну, інакше правила відхилять заявки.
